@@ -14,6 +14,7 @@
 		950549741DCBF30D00BC1322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950549721DCBF30D00BC1322 /* LaunchScreen.storyboard */; };
 		9505497F1DCBF30D00BC1322 /* tictactoedemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9505497E1DCBF30D00BC1322 /* tictactoedemoTests.swift */; };
 		9505498A1DCBF30D00BC1322 /* tictactoedemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950549891DCBF30D00BC1322 /* tictactoedemoUITests.swift */; };
+		950549981DCBFB4C00BC1322 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950549971DCBFB4C00BC1322 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		950549851DCBF30D00BC1322 /* tictactoedemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tictactoedemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		950549891DCBF30D00BC1322 /* tictactoedemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tictactoedemoUITests.swift; sourceTree = "<group>"; };
 		9505498B1DCBF30D00BC1322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		950549971DCBFB4C00BC1322 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				950549701DCBF30D00BC1322 /* Assets.xcassets */,
 				950549721DCBF30D00BC1322 /* LaunchScreen.storyboard */,
 				950549751DCBF30D00BC1322 /* Info.plist */,
+				950549971DCBFB4C00BC1322 /* Game.swift */,
 			);
 			path = tictactoedemo;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					950549651DCBF30D00BC1322 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2K9WG3X98K;
 						ProvisioningStyle = Automatic;
 					};
 					950549791DCBF30D00BC1322 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9505496C1DCBF30D00BC1322 /* ViewController.swift in Sources */,
+				950549981DCBFB4C00BC1322 /* Game.swift in Sources */,
 				9505496A1DCBF30D00BC1322 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +366,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -403,6 +409,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -412,11 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K9WG3X98K;
 				INFOPLIST_FILE = tictactoedemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.tictactoedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -424,11 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K9WG3X98K;
 				INFOPLIST_FILE = tictactoedemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.tictactoedemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
